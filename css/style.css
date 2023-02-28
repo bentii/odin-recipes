@@ -1,0 +1,71 @@
+h1 {
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    border: 2px solid black;
+}
+
+img {
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    border: 2px dotted black;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+}
+
+ul {
+    font-size: 20px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+ol {
+    font-size: 20px;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 2%;
+    color: black;
+}
+
+.ul-index {
+    list-style-type: none;
+}
+
+.ul-index a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    
+}
+
+.ul-index li {
+    margin-right: 30px;
+}
